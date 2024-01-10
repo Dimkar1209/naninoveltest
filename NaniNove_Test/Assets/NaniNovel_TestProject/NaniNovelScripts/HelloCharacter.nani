@@ -1,29 +1,35 @@
 ; Comment: Scene Name
 @back MainBackground
 
-@char John 
+@char John.Greeting
+@char Jane.Happy
 
 John: Hi, how are you?
 Jane: All good, thanks! What's new?
+
+@char John.Thinking
 John: I'm working on an interesting project.
 
 ; Offer choices to the player
-@choice "Tell me more about your project." -> projectDetails
-@choice "Sounds cool, but let's talk about something else." -> changeTopic
+@choice "Tell me more about your project." goto:".projectDetails"
+@choice "Sounds cool, but let's talk about something else." goto:".changeTopic"
 
 ; Сhoices
-#projectDetails
+# projectDetails
 Jane: That sounds interesting! Can you share more details?
+@goto .continueConversation
 John: Sure, I'm developing a new kind of visual novel engine!
-@jump continueConversation
 
-#changeTopic
+# changeTopic
 Jane: That's nice. But, have you seen any good movies lately?
 John: Yes, I watched an amazing sci-fi movie last night.
-@jump continueConversation
 
-#continueConversation
+@goto .continueConversation
+# continueConversation
 John: Yeah, i always want to tell you..
+
+@char Jane.Flushy
 Jane: Bye!
 
-@goto CharacterMonolog.SkipMonolog
+@goto CharacterMonolog.SkipMonolog if:"Random(1, 10) >= 5"
+@goto CharacterMonolog

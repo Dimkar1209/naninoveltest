@@ -1,6 +1,6 @@
-@back MainBackground
-
-@char Jane 
+@back id:DarkStreet
+@hide John
+@char Jane.Flushy
 
 #CharacterMonolog
 Jane: I know what he wants to say..
