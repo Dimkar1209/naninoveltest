@@ -1,0 +1,12 @@
+@back MainBackground
+
+@char Jane 
+
+#CharacterMonolog
+Jane: I know what he wants to say..
+Jane: But I couldn't fix that.
+
+#SkipMonolog
+Jane: ...
+
+@stop

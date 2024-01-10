@@ -1,0 +1,29 @@
+; Comment: Scene Name
+@back MainBackground
+
+@char John 
+
+John: Hi, how are you?
+Jane: All good, thanks! What's new?
+John: I'm working on an interesting project.
+
+; Offer choices to the player
+@choice "Tell me more about your project." -> projectDetails
+@choice "Sounds cool, but let's talk about something else." -> changeTopic
+
+; Сhoices
+#projectDetails
+Jane: That sounds interesting! Can you share more details?
+John: Sure, I'm developing a new kind of visual novel engine!
+@jump continueConversation
+
+#changeTopic
+Jane: That's nice. But, have you seen any good movies lately?
+John: Yes, I watched an amazing sci-fi movie last night.
+@jump continueConversation
+
+#continueConversation
+John: Yeah, i always want to tell you..
+Jane: Bye!
+
+@goto CharacterMonolog.SkipMonolog
