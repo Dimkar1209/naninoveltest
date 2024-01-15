@@ -1,21 +1,25 @@
 @back id:DarkStreet
 @char NPC2.Interested
 
-B: "Ah, you must be {playerName}. You're here for the package, right?"
+B: Ah, you must be {playerName}. You're here for the package, right?
 
 @char {playerName}.Curious
-{playerName} "Yes, I was told to pick up something important from Neon Alley."
+{playerName} Yes, I was told to pick up something important from Neon Alley.
 
-NPC2: "Right, the package. But first, there's a little task you need to complete."
+NPC2: Right, the package. But first, there's a little task you need to complete.
+NPC2: Here's a simple test, so I can check your memory and overall understanding: the game of memory cards"
 
-;@miniGame Introduction
-
+@hidePrinter
+@showUI CardMiniGame
+@CardGameCommand
+@hideUI CardMiniGame
+@showPrinter
 ;@char NPC2.Impressed (if mini-game is won)
 ;@char NPC2.Disappointed (if mini-game is lost)
 
-NPC2: "Well done. You've proven yourself. Here's the package. Remember, this must stay between us."
+NPC2: Well done. You've proven yourself. Here's the package. Remember, this must stay between us.
 
-{playerName} "Understood. What's next?"
+{playerName} Understood. What's next?
 @set mountainAvailable=true
 
 @goto MapSelector

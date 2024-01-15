@@ -168,6 +168,13 @@ namespace DTT.MinigameMemory
             _cardSprites = new List<Sprite>();
         }
 
+        public static MemoryGameSettings GetDefaultSettings()
+        {
+            var settings = new MemoryGameSettings();
+            settings.Reset();
+            return settings;
+        }
+
         /// <summary>
         /// The amount of cards in the game based on <see cref="CardModes"/>.
         /// </summary>
