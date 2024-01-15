@@ -1,35 +1,47 @@
-; Comment: Scene Name
-@back MainBackground
+@back id:KennoStreet
 
 @char John.Greeting
-@char Jane.Happy
 
-John: Hi, how are you?
-Jane: All good, thanks! What's new?
+B: You finally awake time to decided your future chose the path...
+@hidePrinter
+@input playerName summary:"Enter your name"
+@stop
+
+{playerName} I think my name is {playerName}
 
 @char John.Thinking
-John: I'm working on an interesting project.
+John: Good. operation compleate, go for Neon Alley take a package
 
-; Offer choices to the player
-@choice "Tell me more about your project." goto:".projectDetails"
-@choice "Sounds cool, but let's talk about something else." goto:".changeTopic"
+{playerName} Neon Alley? What's this package I'm supposed to take?
 
-; Сhoices
-# projectDetails
-Jane: That sounds interesting! Can you share more details?
-@goto .continueConversation
-John: Sure, I'm developing a new kind of visual novel engine!
+@char John.Serious
 
-# changeTopic
-Jane: That's nice. But, have you seen any good movies lately?
-John: Yes, I watched an amazing sci-fi movie last night.
+John: Details are scarce, but it's crucial. It's a small, unmarked box. You'll know it when you see it. Be discreet and trust no one.
 
-@goto .continueConversation
-# continueConversation
-John: Yeah, i always want to tell you..
+@char John.Concerned
+John: Remember, {playerName}, the city is full of eyes. Don`t do anyting stupid.
+@hidePrinter
 
-@char Jane.Flushy
-Jane: Bye!
+@choice "Head straight to Neon Alley" goto:"ShadyCustomer"
+@choice "Ask John more questions." goto:".continueConversation"
+@stop
 
-@goto CharacterMonolog.SkipMonolog if:"Random(1, 10) >= 5"
-@goto CharacterMonolog
+@goto ShadyCustomer
+
+# continueConversation 
+{playerName} What's happening? Who are you?
+
+@char John.Surprised
+John: Wow, you didn't ask such questions before.
+
+@char John.Serious
+John: You can call me John. I'm sort of your manager. You're a delivery person for very discreet services. You've just returned from your previous delivery, and I've wiped your memory.
+John: You need to go now, the clock is ticking." As he speaks, a girl appears.
+
+{playerName} So, why am I doing this?
+John: Because we've been working together for almost two years. It's the only job where you can make good money.
+
+@char John.Angry
+John: Now go!
+
+@goto ShadyCustomer
