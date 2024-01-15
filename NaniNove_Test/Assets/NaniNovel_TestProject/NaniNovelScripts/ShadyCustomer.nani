@@ -1,0 +1,34 @@
+@back id:DarkStreet
+@char NPC2.Interested
+
+B: Ah, you must be {playerName}. You're here for the package, right?
+
+@char {playerName}.Curious
+{playerName} Yes, I was told to pick up something important from Neon Alley.
+
+NPC2: Right, the package. But first, there's a little task you need to complete.
+NPC2: Here's a simple test, so I can check your memory and overall understanding: the game of memory cards"
+
+@hidePrinter
+@showUI CardMiniGame
+@CardGameCommand
+@hideUI CardMiniGame
+@showPrinter
+;@char NPC2.Impressed (if mini-game is won)
+;@char NPC2.Disappointed (if mini-game is lost)
+
+NPC2: Well done. You've proven yourself. Here's the package. Remember, this must stay between us.
+
+{playerName} Understood. What's next?
+@set mountainAvailable=true
+
+@goto MapSelector
+
+;@hidePrinter
+
+;@interactiveItem "Mysterious Box" summary: "A small, unmarked box that seems ordinary yet feels significant."
+
+;@locationUpdate "Abandoned Warehouse" becomes "Visited"
+
+;@choice "Examine the mysterious box" goto:"MapSelector"
+;@choice "Deliver the package without opening" goto:"MapSelector"

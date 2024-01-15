@@ -93,6 +93,21 @@ namespace DTT.MinigameMemory
         }
 
         /// <summary>
+        /// Starts the game with the given settings.
+        /// </summary>
+        public void StartGameDefault()
+        {
+            _settings = MemoryGameSettings.GetDefaultSettings();
+            _amountOfTurns = 0;
+            _isPaused = false;
+            _isGameActive = true;
+            _timer.Begin();
+
+            _board.SetupGame(_settings);
+            Started?.Invoke();
+        }
+
+        /// <summary>
         /// Stops the game activities and timer.
         /// </summary>
         public void Pause()
