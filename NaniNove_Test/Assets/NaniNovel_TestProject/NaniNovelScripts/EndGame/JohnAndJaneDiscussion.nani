@@ -16,6 +16,7 @@ John: {playerName}! You weren't supposed to be here... or anywhere, for that mat
 Jane: Look, {playerName}, it's not what you think. We can explain. Just give us the package, and we can sort this out.
 
 John: No, Jane, don't! {playerName}, don't listen to her. You should give the package to me. I can make things right.
+@set ChargerQuestEnd=FinalEnd
 
 @choice "Run away with Giga charger" goto:".RunWithCharger"
 @choice "Prove loaylty and give charger John" goto:".JohnAcceptCharger"

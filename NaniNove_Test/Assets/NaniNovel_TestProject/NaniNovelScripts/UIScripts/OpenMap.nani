@@ -1,2 +1,5 @@
 @hidePrinter
+@hideUI HUD
 @showUI Map
+@printer Dialogue
+@showPrinter

@@ -1,5 +1,5 @@
 @back id:JohnOffice
-@showUI MapButton
+
 
 @set DarkStreetState=0
 @set JohnOfficeState=0
@@ -25,7 +25,7 @@ John: Details are scarce, but it's crucial. It's a small, unmarked box. You'll k
 
 John: Remember, {playerName}, the city is full of eyes. Don`t do anyting stupid.
 @hidePrinter
-
+@showUI HUD
 @set johnOfficeAvailable=false
 @set mapButtonAvalible=true
 @set darkStreetAvailable=true
