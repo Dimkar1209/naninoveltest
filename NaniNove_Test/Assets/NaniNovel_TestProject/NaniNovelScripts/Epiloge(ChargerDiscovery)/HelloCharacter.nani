@@ -1,0 +1,52 @@
+@back id:JohnOffice
+
+@set DarkStreetState=0
+@set JohnOfficeState=0
+@set ShadyHillsState=0
+
+;@bgm Music volume:0.5
+@voice John_Hello volume:0.5
+@char John.Greeting pos:50,-50
+
+B: You finally awake time to decided your future chose the path...
+@hidePrinter
+@input playerName summary:"Enter your name"
+@stop
+@set playerName=playerName
+{playerName}: I think my name is {playerName}
+
+@char John.Happy pos:100,-50
+John: Good. operation compleate, go for Neon Alley take a package
+
+{playerName}: Neon Alley? What's this package I'm supposed to take?
+
+@char John.Serious pos:80,-50
+
+John: Details are scarce, but it's crucial. It's a small, unmarked box. You'll know it when you see it. Be discreet and trust no one.
+
+John: Remember, {playerName}, the city is full of eyes. Don`t do anyting stupid.
+@hidePrinter
+@showUI HUD
+@set johnOfficeAvailable=false
+@set mapButtonAvalible=true
+@set darkStreetAvailable=true
+@set DarkStreetState="JanePackage"
+@hideChars
+
+@choice "Head straight to Dark Streets" goto:"OpenMap"
+@choice "Ask John more questions." goto:".continueConversation"
+@stop
+
+# continueConversation 
+{playerName}: What's happening? Who are you?
+
+John: Wow, you didn't ask such questions before.
+
+John: You can call me John. I'm sort of your manager. You're a delivery person for very discreet services. You've just returned from your previous delivery, and I've wiped your memory.
+John: You need to go now, the clock is ticking." As he speaks, a girl appears.
+
+{playerName}: So, why am I doing this?
+John: Because we've been working together for almost two years. It's the only job where you can make good money.
+
+John: Now go!
+@showUI Map

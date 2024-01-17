@@ -1,0 +1,36 @@
+; English <en> to Russian (Russia) <ru-RU> localization document for `ShadyCustomer` naninovel script
+
+# e5e6c7d3
+; Jane: Ah, you must be {playerName}. You're here for the package, right?
+Jane: Ах, ты должен быть {playername}. Вы здесь для пакета, верно?
+
+# 5b0a47a6
+; {playerName}: Yes, I was told to pick up something important from Neon Alley.
+{playerName}: Да, мне сказали забрать что -то важное из Neon Alley.
+
+# 66d493c2
+; Jane: Right, the package. But first, there's a little task you need to complete.
+Jane: Правильно, пакет. Но сначала есть небольшая задача, которую вам нужно выполнить.
+
+# 6525675
+; Jane: Here's a simple test, so I can check your memory and overall understanding: the game of memory cards
+Jane: Вот простой тест, поэтому я могу проверить вашу память и общее понимание: игра карт памяти
+
+# ca40afda
+; Jane: Well done. You've proven yourself. Here's the package. Remember, this must stay between us. (Game Completed in {CardGameTurns} turns)
+Jane: Отличная работа. Вы доказали себя. Вот пакет. Помните, это должно оставаться между нами. (Игра завершена в {cardgameturns} повороты)
+
+# 64c2f6f6
+; Jane: Okay, maybe you still could deliver package (Game Completed in {CardGameTurns} turns)
+Jane: Хорошо, может быть, вы все еще могли бы доставить пакет (игра завершена в {cardgameturns} поворотах)
+
+# 20098ef0
+; {playerName}: Understood. What's next?
+{playerName}: Понял. Что дальше?
+
+# 26d524e0
+; Jane: Here the package, open this container in Shady Hills, here location
+Jane: Здесь упаковка, откройте этот контейнер в Shady Hills, здесь место
+
+# 567ccbbb
+; @showUI Map

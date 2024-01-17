@@ -1,0 +1,21 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `JaneWithCharger` naninovel script
+
+# 382131a9
+; Jane: Oh, {playerName}, you don't know how much this means to me. Thank you!
+Jane: О, {Playername}, ти не знаєш, скільки це означає для мене. Дякую тобі!
+
+# eb5054ee
+; {playerName}: I hope it helps. I trust you'll use it for the right reasons.
+{playerName}: Сподіваюся, це допоможе. Я вірю, що ви використовуєте його з правильних причин.
+
+# 4638df88
+; Jane: Absolutely! You've made a wise choice. Your trust in me... it means everything.
+Jane: Абсолютно! Ви зробили мудрий вибір. Ваша довіра до мене ... це означає все.
+
+# 917011a7
+; {playerName}: Just make sure it's put to good use, Jane.
+{playerName}: Просто переконайтеся, що це корисно, Джейн.
+
+# c9347f6a
+; Jane: Don't worry, {playerName}. With this charger, we can finally make a positive change. You've played a crucial role in this.
+Jane: Не хвилюйтеся, {Playername}. За допомогою цього зарядного пристрою ми можемо нарешті зробити позитивні зміни. Ви відіграли вирішальну роль у цьому.

@@ -1,0 +1,9 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `ShadyHillsRun` naninovel script
+
+# 95c70ad7
+; {playerName} dashes through the dark streets, clutching the Giga charger tightly. Behind, the voices of John and Jane fade into the night. 
+{playername} тире по темних вулицях, щільно стискаючи Giga Charger. Позаду голоси Іоанна та Джейн в'яне в ніч. 
+
+# 4c47ed1d
+; {playerName}: I hide this charger in this junk box.
+{playerName}: Я приховую цей зарядний пристрій у цій коробці.

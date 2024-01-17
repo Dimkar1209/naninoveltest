@@ -1,0 +1,13 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `JohnWithCharger` naninovel script
+
+# 5b87aebc
+; John: Absolutely. You've made the right decision. This... this will change everything for us.
+John: Абсолютно. Ви прийняли правильне рішення. Це ... це змінить все для нас.
+
+# ca7f9cac
+; {playerName}: I just hope it doesn't fall into the wrong hands.
+{playerName}: Я просто сподіваюся, що це не потрапляє в чужі руки.
+
+# b98e2d7e
+; John: Don't worry about that. With this charger, we're going to be on top. You've secured our future, {playerName}.
+John: Не турбуйтеся про це. З цим зарядним пристроєм ми будемо на вершині. Ви забезпечили наше майбутнє, {playername}.

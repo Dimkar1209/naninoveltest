@@ -1,0 +1,3 @@
+@hidePrinter
+@hideUI HUD
+@showUI QuestLogUI

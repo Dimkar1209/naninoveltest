@@ -1,0 +1,9 @@
+@printer Dialogue
+
+{playerName}: This is the spot. Right where I met Jane and she handed me that package after the card game. It feels like ages ago, yet it was just a short while back. (pauses) And now, there's no sign of her, or anyone else for that matter.
+
+{playerName}: Jane seemed to know more than she let on. That memory card game, the package, her instructions to open it in Shady Hills... It was all too calculated, too precise. (shakes head) And now, with this silence, this absence, it's like she vanished into thin air.
+
+@hidePrinter
+@toast "Return to John Office"
+@goto OpenMap

@@ -1,0 +1,25 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `ShadyHills` naninovel script
+
+# 7ee00b99
+; {playerName}: Okay, here i am
+{playerName}: Гаразд, ось я
+
+# f9b359e7
+; @print text:"As you open it, you first notice the sleek, black box with glossy, embossed lettering spelling \"GigaCharger\" that shimmers under the light."
+@print text:"Коли ви відкриваєте його, ви спочатку помічаєте гладку, чорну коробку з глянсовим, рельєфним написанням правопису gigacharger, що мерехтить під світлом".
+
+# ddc3f35a
+; @print text:"As you remove the charger from the box, you notice its substantial weight, lending to its powerful capabilities."
+@print text:"Коли ви видаляєте зарядний пристрій з коробки, ви помічаєте його значну вагу, кредитування його потужним можливостям".
+
+# f5bd1dad
+; {playerName}: Well, that was unexpected. The moment I activated this thing, it's like a floodgate opened. Didn't expect it to be... whatever that was. 
+{playerName}: Ну, це було несподівано. Щойно я активізував цю річ, це як відкриття шлюбу. Не очікував, що це буде ... що б це не було. 
+
+# 5889a39a
+; @toast "Obtained Giga charger"
+@toast "Отриманий Giga Charger"
+
+# c6b03ac8
+; {playerName}: It's clear now that there's more to this job than just a simple delivery. This thing, it's not just a package. It's something else, something bigger.
+{playerName}: Зараз зрозуміло, що в цій роботі є більше, ніж просто проста доставка. Ця річ, це не просто пакет. Це щось інше, щось більше.
