@@ -1,6 +1,6 @@
-@hidePrinter
-@back  id:JohnOffice
+@hideAll
 @showUI HUD
+@back id:JohnOffice
 @char John.Serious pos:0,-50
 @char Jane.Happy pos:70,0
 
@@ -17,7 +17,8 @@ John: {playerName}! You weren't supposed to be here... or anywhere, for that mat
 Jane: Look, {playerName}, it's not what you think. We can explain. Just give us the package, and we can sort this out.
 
 John: No, Jane, don't! {playerName}, don't listen to her. You should give the package to me. I can make things right.
-@set ChargerQuestEnd=FinalEnd
+@set ChargerQuestEnd="FinalEnd"
+
 
 @choice "Run away with Giga charger" goto:".RunWithCharger"
 @choice "Prove loaylty and give charger John" goto:".JohnAcceptCharger"
@@ -31,8 +32,6 @@ John: No, Jane, don't! {playerName}, don't listen to her. You should give the pa
 @set DarkStreetState="JaneWithoutCharger"
 @set DarkStreetState="JaneWithoutCharger"
 @set ShadyHillsState="RunWithCharger"
-@showUI Map
-@stop
 
 #JohnAcceptCharger
 @set DarkStreetState="JaneWithoutCharger"
@@ -40,17 +39,16 @@ John: No, Jane, don't! {playerName}, don't listen to her. You should give the pa
 {playerName}: Here boss
 John: Wow, you still profesional
 Jane: You a the worst.
-@hideAll
-@showUI Map
-@stop
 
 #JaneAcceptCharger
 @set DarkStreetState="JaneWithCharger"
 @set JohnOfficeState="JohnWithoutCharger"
 {playerName}: Customer always right
 Jane: Thank you honey)
-@char John.Angry
+@char John.Serious
 John: You fired!
+
 @hideAll
 @showUI Map
+@hidePrinter
 @stop

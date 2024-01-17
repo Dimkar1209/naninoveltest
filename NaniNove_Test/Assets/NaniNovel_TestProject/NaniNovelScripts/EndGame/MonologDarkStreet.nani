@@ -1,3 +1,5 @@
+@hideAll
+@back id:DarkStreet
 @printer Dialogue
 
 {playerName}: This is the spot. Right where I met Jane and she handed me that package after the card game. It feels like ages ago, yet it was just a short while back. (pauses) And now, there's no sign of her, or anyone else for that matter.
@@ -6,4 +8,5 @@
 
 @hidePrinter
 @toast "Return to John Office"
-@goto OpenMap
+@hidePrinter
+@stop

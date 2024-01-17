@@ -1,5 +1,5 @@
 # ShadyCustomer
-
+@hideAll
 @back id:DarkStreet
 @char Jane.Greetings
 @printer Dialogue
@@ -12,13 +12,11 @@ Jane: Right, the package. But first, there's a little task you need to complete.
 Jane: Here's a simple test, so I can check your memory and overall understanding: the game of memory cards
 
 @hidePrinter
-@hideUI MapButton
 @showUI CardMiniGame
 @CardGameCommand
 @hideUI CardMiniGame
 @save
 
-@showUI MapButton
 @char Jane.Happy pos:20,0
 
 @if {CardGameTurns}<10
@@ -37,3 +35,4 @@ Jane: Here the package, open this container in Shady Hills, here location
 @set ShadyHillsState="OpenPackage"
 @hideChars
 @showUI Map
+@stop
