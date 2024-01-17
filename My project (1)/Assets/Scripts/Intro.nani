@@ -1,5 +1,0 @@
-@showUI Map
-@set mountainAvailable=true
-@save
-@hidePrinter
-@stop

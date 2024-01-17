@@ -1,0 +1,38 @@
+# ShadyCustomer
+@back id:DarkStreet
+@char Jane.Greetings
+@printer Dialogue
+
+Jane: Ah, you must be {playerName}. You're here for the package, right?
+
+{playerName}: Yes, I was told to pick up something important from Neon Alley.
+
+Jane: Right, the package. But first, there's a little task you need to complete.
+Jane: Here's a simple test, so I can check your memory and overall understanding: the game of memory cards
+
+@hidePrinter
+@hideUI MapButton
+@showUI CardMiniGame
+@CardGameCommand
+@hideUI CardMiniGame
+@save
+
+@showUI MapButton
+@char Jane.Happy pos:20,0
+
+@if {CardGameTurns}<10
+Jane: Well done. You've proven yourself. Here's the package. Remember, this must stay between us. (Game Completed in {CardGameTurns} turns)
+@elseif {CardGameTurns}>10
+Jane: Okay, maybe you still could deliver package (Game Completed in {CardGameTurns} turns)
+@showPrinter
+@endIf
+
+{playerName}: Understood. What's next?
+Jane: Here the package, open this container in Shady Hills, here location
+
+@set mapButtonAvalible=true
+@set darkStreetAvailable=false
+@set shadyHillsAvailable=true
+@set ShadyHillsState="OpenPackage"
+@hideChars
+@showUI Map

@@ -1,0 +1,7 @@
+@if JohnOfficeState=="JohnAndJane"
+@goto JohnAndJaneDiscussion
+@elseIf JohnOfficeState=="JohnWithCharger"
+@goto JohnWithCharger
+@elseIf JohnOfficeState=="JohnWithoutCharger"
+@goto JohnWithoutCharger
+@endIf

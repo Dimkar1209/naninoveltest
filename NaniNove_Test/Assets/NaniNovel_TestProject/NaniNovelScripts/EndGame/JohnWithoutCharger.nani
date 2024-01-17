@@ -1,0 +1,5 @@
+@back id:JohnOffice
+@char John.Angry pos:50,-50
+
+John: "I can't believe it, {playerName}. Without the charger, we're back to square one."
+@stop

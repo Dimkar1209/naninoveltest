@@ -1,0 +1,5 @@
+@back id:DarkStreet
+@char Jane.Greetings
+
+Jane: "Such a disappointment, {playerName}. We really needed that."
+@stop

@@ -1,0 +1,55 @@
+@back  id:JohnOffice
+@showUI HUD
+@char John.Serious pos:0,-50
+@char Jane.Happy pos:70,0
+
+@printer Dialogue
+
+{playerName}: Talking about me? What's going on here? What was in that package?
+
+John: Jane, what the hell happened? The package was supposed to take care of {playerName}. It was a simple plan!
+
+Jane: I don't know, John. Something went wrong. The package... it didn't work as we thought. And now {playerName} knows too much.
+
+John: {playerName}! You weren't supposed to be here... or anywhere, for that matter.
+
+Jane: Look, {playerName}, it's not what you think. We can explain. Just give us the package, and we can sort this out.
+
+John: No, Jane, don't! {playerName}, don't listen to her. You should give the package to me. I can make things right.
+
+@choice "Run away with Giga charger" goto:".RunWithCharger"
+@choice "Prove loaylty and give charger John" goto:".JohnAcceptCharger"
+@choice "Return charger Jane" goto:".JaneAcceptCharger"
+@stop
+
+#RunWithCharger
+{playerName}: No thanks, i keep it.
+@hide Jane
+@hide John
+@set shadyHillsAvailable=true
+@set DarkStreetState="JaneWithoutCharger"
+@set DarkStreetState="JaneWithoutCharger"
+@set ShadyHillsState="RunWithCharger"
+@showUI Map
+@stop
+
+#JohnAcceptCharger
+@set DarkStreetState="JaneWithoutCharger"
+@set JohnOfficeState="JohnWithCharger"
+{playerName}: Here boss
+John: Wow, you still profesional
+Jane: You a the worst.
+@hide Jane
+@showUI Map
+@stop
+
+#JaneAcceptCharger
+@set DarkStreetState="JaneWithCharger"
+@set JohnOfficeState="JohnWithoutCharger"
+{playerName}: Customer always right
+Jane: Thank you honey)
+@char John.Angry
+John: You fired!
+@hide John
+@showUI Map
+@stop
