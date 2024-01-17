@@ -1,3 +1,4 @@
+@hidePrinter
 @back  id:JohnOffice
 @showUI HUD
 @char John.Serious pos:0,-50
@@ -25,8 +26,7 @@ John: No, Jane, don't! {playerName}, don't listen to her. You should give the pa
 
 #RunWithCharger
 {playerName}: No thanks, i keep it.
-@hide Jane
-@hide John
+@hideAll
 @set shadyHillsAvailable=true
 @set DarkStreetState="JaneWithoutCharger"
 @set DarkStreetState="JaneWithoutCharger"
@@ -40,7 +40,7 @@ John: No, Jane, don't! {playerName}, don't listen to her. You should give the pa
 {playerName}: Here boss
 John: Wow, you still profesional
 Jane: You a the worst.
-@hide Jane
+@hideAll
 @showUI Map
 @stop
 
@@ -51,6 +51,6 @@ Jane: You a the worst.
 Jane: Thank you honey)
 @char John.Angry
 John: You fired!
-@hide John
+@hideAll
 @showUI Map
 @stop
