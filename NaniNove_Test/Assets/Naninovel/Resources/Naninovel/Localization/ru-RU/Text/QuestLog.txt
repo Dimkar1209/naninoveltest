@@ -1,0 +1,7 @@
+; English <en> to Russian (Russia) <ru-RU> localization document for `QuestLog` managed text document
+
+GetPackageQuest: Отправьтесь на Темные Улицы и получите посылку
+OpenPackageInShadyHills: Полученный пакет выглядит очень странно, возможно...
+JanePackage: Произошло что-то странное, возможно, мне следует...
+JaneIsNotHere: Я не встретил Джейн, я вернусь в офис Джона
+SuperChargeEnd: Я обнаружил заряд и принял правильное решение

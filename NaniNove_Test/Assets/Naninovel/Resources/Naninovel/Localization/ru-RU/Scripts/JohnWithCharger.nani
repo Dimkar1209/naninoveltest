@@ -1,0 +1,13 @@
+; English <en> to Russian (Russia) <ru-RU> localization document for `JohnWithCharger` naninovel script
+
+# 5b87aebc
+; John: Absolutely. You've made the right decision. This... this will change everything for us.
+John: Абсолютно. Вы приняли правильное решение. Это ... это изменит все для нас.
+
+# ca7f9cac
+; {playerName}: I just hope it doesn't fall into the wrong hands.
+{playerName}: Я просто надеюсь, что это не упадет в чужие руки.
+
+# b98e2d7e
+; John: Don't worry about that. With this charger, we're going to be on top. You've secured our future, {playerName}.
+John: Не беспокойся об этом. С этим зарядным устройством мы будем на вершине. Вы закрепили наше будущее, {playername}.

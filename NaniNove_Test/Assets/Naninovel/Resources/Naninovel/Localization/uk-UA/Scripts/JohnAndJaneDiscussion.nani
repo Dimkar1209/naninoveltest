@@ -1,0 +1,65 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `JohnAndJaneDiscussion` naninovel script
+
+# 3d561785
+; {playerName}: Talking about me? What's going on here? What was in that package?
+{playerName}: Говорити про мене? Що тут відбувається? Що було в цій упаковці?
+
+# 356e57c
+; John: Jane, what the hell happened? The package was supposed to take care of {playerName}. It was a simple plan!
+John: Джейн, що за чорт сталося? Пакет повинен був піклуватися про {playerName} Це був простий план!
+
+# 8ec4d240
+; Jane: I don't know, John. Something went wrong. The package... it didn't work as we thought. And now {playerName} knows too much.
+Jane: Я не знаю, Джон. Щось пішло не так. Пакет ... це не спрацювало, як ми думали. І тепер {playerName} знає занадто багато.
+
+# d88bccbd
+; John: {playerName}! You weren't supposed to be here... or anywhere, for that matter.
+John: {playerName}! Ви не повинні були бути тут ... або ніде, з цього приводу.
+
+# 330a0107
+; Jane: Look, {playerName}, it's not what you think. We can explain. Just give us the package, and we can sort this out.
+Jane: Подивіться, {Playername}, це не те, що ви думаєте. Ми можемо пояснити. Просто дайте нам пакет, і ми можемо це розібратися.
+
+# 49943141
+; John: No, Jane, don't! {playerName}, don't listen to her. You should give the package to me. I can make things right.
+John: Ні, Джейн, ні! {playerName}, не слухайте її. Ви повинні дати мені пакет. Я можу зробити все правильно.
+
+# 76aadd23
+; @choice "Run away with Giga charger" goto:".RunWithCharger"
+@choice "Втечі з Giga Charger" goto:".RunWithCharger"
+
+# ab58a542
+; @choice "Prove loaylty and give charger John" goto:".JohnAcceptCharger"
+@choice "Доведіть loaylty і дайте зарядний пристрій Джону" goto:".JohnAcceptCharger"
+
+# 2af4d728
+; @choice "Return charger Jane" goto:".JaneAcceptCharger"
+@choice "Повернення зарядного пристрою Джейн" goto:".JaneAcceptCharger"
+
+# 29cc1ba6
+; {playerName}: No thanks, i keep it.
+{playerName}: Ні, дякую, я це зберігаю.
+
+# a882fab9
+; {playerName}: Here boss
+{playerName}: Тут бос
+
+# 53de2b40
+; John: Wow, you still profesional
+John: Вау, ти все ще професійний
+
+# 798a372a
+; Jane: You a the worst.
+Jane: Ти найгірший.
+
+# d4659973
+; {playerName}: Customer always right
+{playerName}: Клієнт завжди правий
+
+# 9e3b3795
+; Jane: Thank you honey)
+Jane: Дякую, милий)
+
+# 407adb32
+; John: You fired!
+John: Ви звільнили!

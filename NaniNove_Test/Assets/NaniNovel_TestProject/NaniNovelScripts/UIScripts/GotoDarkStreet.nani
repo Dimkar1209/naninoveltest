@@ -1,0 +1,9 @@
+@if DarkStreetState=="JanePackage"
+@goto ShadyCustomer
+@elseIf DarkStreetState=="JaneGone"
+@goto MonologDarkStreet
+@elseIf DarkStreetState=="JaneWithCharger"
+@goto JaneWithCharger
+@elseIf DarkStreetState=="JaneWithoutCharger"
+@goto JaneWithoutCharger
+@endIf

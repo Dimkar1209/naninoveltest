@@ -1,0 +1,36 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `ShadyCustomer` naninovel script
+
+# e5e6c7d3
+; Jane: Ah, you must be {playerName}. You're here for the package, right?
+Jane: Ах, ти повинен бути {Playername}. Ви тут для пакету, правда?
+
+# 5b0a47a6
+; {playerName}: Yes, I was told to pick up something important from Neon Alley.
+{playerName}: Так, мені сказали забрати щось важливе з неонової алеї.
+
+# 66d493c2
+; Jane: Right, the package. But first, there's a little task you need to complete.
+Jane: Правильно, пакет. Але спочатку є невелике завдання, яке потрібно виконати.
+
+# 6525675
+; Jane: Here's a simple test, so I can check your memory and overall understanding: the game of memory cards
+Jane: Ось простий тест, тому я можу перевірити вашу пам’ять та загальне розуміння: гра карт пам'яті
+
+# ca40afda
+; Jane: Well done. You've proven yourself. Here's the package. Remember, this must stay between us. (Game Completed in {CardGameTurns} turns)
+Jane: Молодці. Ви підтвердили себе. Ось пакет. Пам'ятайте, це повинно залишатися між нами. (Гра завершена в {Cardgameturns}
+
+# 64c2f6f6
+; Jane: Okay, maybe you still could deliver package (Game Completed in {CardGameTurns} turns)
+Jane: Гаразд, можливо, ви все -таки могли б доставити пакет (гра завершена в {Cardgameturns} повороти)
+
+# 20098ef0
+; {playerName}: Understood. What's next?
+{playerName}: Зрозумілий. Що далі?
+
+# 26d524e0
+; Jane: Here the package, open this container in Shady Hills, here location
+Jane: Тут пакет, відкрийте цей контейнер на Shady Hills, тут розташування
+
+# 567ccbbb
+; @showUI Map
