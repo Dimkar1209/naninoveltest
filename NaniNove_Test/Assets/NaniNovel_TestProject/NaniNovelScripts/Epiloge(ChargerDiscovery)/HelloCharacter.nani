@@ -7,6 +7,7 @@
 ;@bgm Music volume:0.5
 @voice John_Hello volume:0.5
 @char John.Greeting pos:50,-50
+@lock CG/GigaCharger
 
 B: You finally awake time to decided your future chose the path...
 @hidePrinter
@@ -31,15 +32,15 @@ John: Remember, {playerName}, the city is full of eyes. Don`t do anyting stupid.
 @set mapButtonAvalible=true
 @set darkStreetAvailable=true
 @set DarkStreetState="JanePackage"
-@hideChars
 
 @choice "Head straight to Dark Streets" goto:"OpenMap"
 @choice "Ask John more questions." goto:".continueConversation"
+@hideChars
 @stop
 
 # continueConversation 
 {playerName}: What's happening? Who are you?
-
+@char John.Serious pos:80,-50
 John: Wow, you didn't ask such questions before.
 
 John: You can call me John. I'm sort of your manager. You're a delivery person for very discreet services. You've just returned from your previous delivery, and I've wiped your memory.
@@ -49,4 +50,6 @@ John: You need to go now, the clock is ticking." As he speaks, a girl appears.
 John: Because we've been working together for almost two years. It's the only job where you can make good money.
 
 John: Now go!
-@showUI Map
+@hideChars
+@hidePrinter
+@stop

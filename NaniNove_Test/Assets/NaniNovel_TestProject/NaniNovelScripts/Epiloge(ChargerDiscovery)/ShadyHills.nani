@@ -1,3 +1,4 @@
+@hideAll
 @back id:ShadyHills
 @printer Dialogue
 
@@ -18,5 +19,6 @@
 @set darkStreetAvailable=true
 @set DarkStreetState="JaneGone"
 @set JohnOfficeState="JohnAndJane"
+@set ShadyHillsState=""
 @showUI Map
 @stop
