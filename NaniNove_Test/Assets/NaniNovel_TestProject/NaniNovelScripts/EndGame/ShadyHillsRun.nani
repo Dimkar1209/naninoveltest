@@ -1,3 +1,4 @@
+@hideAll
 @back id:ShadyHills
 {playerName} dashes through the dark streets, clutching the Giga charger tightly. Behind, the voices of John and Jane fade into the night. 
 
@@ -5,4 +6,5 @@
 
 @hidePrinter
 @set shadyHillsAvailable=false
-@showUI Map
+@hidePrinter
+@stop

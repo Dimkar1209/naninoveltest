@@ -1,3 +1,4 @@
+@hideAll
 @back id:JohnOffice
 @showUI MapButton
 
@@ -7,3 +8,5 @@ John: Absolutely. You've made the right decision. This... this will change every
 
 John: Don't worry about that. With this charger, we're going to be on top. You've secured our future, {playerName}.
 
+@hidePrinter
+@stop
