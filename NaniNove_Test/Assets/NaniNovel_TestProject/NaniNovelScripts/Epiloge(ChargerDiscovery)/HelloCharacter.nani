@@ -1,10 +1,11 @@
 @back id:JohnOffice
 
-
 @set DarkStreetState=0
 @set JohnOfficeState=0
 @set ShadyHillsState=0
 
+;@bgm Music volume:0.5
+@voice John_Hello volume:0.5
 @char John.Greeting pos:50,-50
 
 B: You finally awake time to decided your future chose the path...

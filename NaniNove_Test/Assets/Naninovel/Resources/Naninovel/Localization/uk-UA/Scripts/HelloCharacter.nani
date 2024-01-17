@@ -1,0 +1,68 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `HelloCharacter` naninovel script
+
+# 948ac90d
+; B: You finally awake time to decided your future chose the path...
+B: Ви нарешті прокидаєтесь, щоб вирішити, що ваш майбутній вибрав шлях ...
+
+# fc0cf97f
+; @input playerName summary:"Enter your name"
+@input playerName summary:"Введіть ім'я"
+
+# d538edd
+; {playerName}: I think my name is {playerName}
+{playerName}: Я думаю, моє ім'я {Playername}
+
+# 71288df9
+; John: Good. operation compleate, go for Neon Alley take a package
+John: Добре. Операція комплектується, перейдіть на неонову алею, візьміть пакет
+
+# 8ba2cd44
+; {playerName}: Neon Alley? What's this package I'm supposed to take?
+{playerName}: Неонова алея? Який цей пакет я повинен взяти?
+
+# e489b380
+; John: Details are scarce, but it's crucial. It's a small, unmarked box. You'll know it when you see it. Be discreet and trust no one.
+John: Деталі мало, але це важливо. Це невелика, немаркована коробка. Ви це дізнаєтесь, коли побачите. Будьте стримані і нікому не довіряйте.
+
+# 2673dc9d
+; John: Remember, {playerName}, the city is full of eyes. Don`t do anyting stupid.
+John: Пам'ятайте, {Playername}, місто сповнене очей. Не робіть дурного.
+
+# 725af3a0
+; @choice "Head straight to Dark Streets" goto:"OpenMap"
+@choice "Голова прямо до темних вулиць" goto:"OpenMap"
+
+# 1769c4fe
+; @choice "Ask John more questions." goto:".continueConversation"
+@choice "Задайте Джону більше питань". goto:".continueConversation"
+
+# f7fb1d42
+; {playerName}: What's happening? Who are you?
+{playerName}: Що відбувається? Хто ти?
+
+# e664bd19
+; John: Wow, you didn't ask such questions before.
+John: Ого, ви раніше не задавали таких питань.
+
+# 114a32ce
+; John: You can call me John. I'm sort of your manager. You're a delivery person for very discreet services. You've just returned from your previous delivery, and I've wiped your memory.
+John: Ви можете назвати мене Джоном. Я свого роду ваш менеджер. Ви людина з доставки для дуже стриманих послуг. Ви щойно повернулися з попередньої доставки, і я витер ваш пам'ять.
+
+# f688d8d5
+; John: You need to go now, the clock is ticking." As he speaks, a girl appears.
+John: Вам потрібно піти зараз, годинник тикає. "Як він говорить, з’являється дівчина.
+
+# e85a2da3
+; {playerName}: So, why am I doing this?
+{playerName}: Отже, чому я це роблю?
+
+# 532575dc
+; John: Because we've been working together for almost two years. It's the only job where you can make good money.
+John: Тому що ми працюємо разом майже два роки. Це єдина робота, де ви можете заробити хороші гроші.
+
+# ede5897b
+; John: Now go!
+John: А тепер йди!
+
+# 567ccbbb
+; @showUI Map

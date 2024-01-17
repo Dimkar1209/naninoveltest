@@ -1,0 +1,7 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `QuestLog` managed text document
+
+GetPackageQuest: Вирушайте на Темні Вулиці та отримайте посилку
+OpenPackageInShadyHills: Отриманий пакунок виглядає дуже дивно, можливо,...
+JanePackage: Сталося щось дивне, можливо, мені слід це повер...
+JaneIsNotHere: Я не зустрів Джейн, я повернуся до офісу Джона
+SuperChargeEnd: Я виявив зарядження і прийняв правильне рішення

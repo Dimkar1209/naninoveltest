@@ -1,0 +1,13 @@
+; English <en> to Russian (Russia) <ru-RU> localization document for `MonologDarkStreet` naninovel script
+
+# 9f56ac0
+; {playerName}: This is the spot. Right where I met Jane and she handed me that package after the card game. It feels like ages ago, yet it was just a short while back. (pauses) And now, there's no sign of her, or anyone else for that matter.
+{playerName}: Это место. Прямо там, где я встретил Джейн, и она передала мне этот пакет после карточной игры. Это похоже на много лет назад, но это было вскоре назад. (Паузы) И теперь нет никаких признаков ее или кого -либо еще в этом отношении.
+
+# 8ff61b1f
+; {playerName}: Jane seemed to know more than she let on. That memory card game, the package, her instructions to open it in Shady Hills... It was all too calculated, too precise. (shakes head) And now, with this silence, this absence, it's like she vanished into thin air.
+{playerName}: Джейн, казалось, знала больше, чем она дала. Эта игра для карт памяти, пакет, ее инструкции открыть ее в тенистых холмах ... она была слишком рассчитана, слишком точна. (качает головой) И теперь, с этим молчанием, этим отсутствием, как будто она исчезла в воздух.
+
+# 62dc9100
+; @toast "Return to John Office"
+@toast "Вернись в Джон Офис"

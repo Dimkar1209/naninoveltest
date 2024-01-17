@@ -1,0 +1,9 @@
+; English <en> to Russian (Russia) <ru-RU> localization document for `ShadyHillsRun` naninovel script
+
+# 95c70ad7
+; {playerName} dashes through the dark streets, clutching the Giga charger tightly. Behind, the voices of John and Jane fade into the night. 
+{playername} бросается по темным улицам, плотно сжимая зарядное устройство Giga. Позади голоса Джона и Джейн исчезают в ночь. 
+
+# 4c47ed1d
+; {playerName}: I hide this charger in this junk box.
+{playerName}: Я скрываю это зарядное устройство в этой нежелательной коробке.

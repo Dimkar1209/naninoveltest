@@ -1,0 +1,25 @@
+; English <en> to Russian (Russia) <ru-RU> localization document for `ShadyHills` naninovel script
+
+# 7ee00b99
+; {playerName}: Okay, here i am
+{playerName}: Хорошо, вот я
+
+# f9b359e7
+; @print text:"As you open it, you first notice the sleek, black box with glossy, embossed lettering spelling \"GigaCharger\" that shimmers under the light."
+@print text:"Когда вы откроете его, вы сначала замечаете гладкий черный ящик с глянцевым, тисненным орфографией \", который мерцает под светом ".
+
+# ddc3f35a
+; @print text:"As you remove the charger from the box, you notice its substantial weight, lending to its powerful capabilities."
+@print text:"Когда вы снимаете зарядное устройство из коробки, вы замечаете его существенный вес, кредируя его мощные возможности".
+
+# f5bd1dad
+; {playerName}: Well, that was unexpected. The moment I activated this thing, it's like a floodgate opened. Didn't expect it to be... whatever that was. 
+{playerName}: Ну, это было неожиданно. В тот момент, когда я активировал эту штуку, это как открытая шлюза. Не ожидал, что это будет ... что бы это ни было. 
+
+# 5889a39a
+; @toast "Obtained Giga charger"
+@toast "Полученное зарядное устройство Giga"
+
+# c6b03ac8
+; {playerName}: It's clear now that there's more to this job than just a simple delivery. This thing, it's not just a package. It's something else, something bigger.
+{playerName}: Теперь ясно, что в этой работе есть нечто большее, чем просто простая доставка. Эта вещь, это не просто пакет. Это что -то еще, что -то большее.

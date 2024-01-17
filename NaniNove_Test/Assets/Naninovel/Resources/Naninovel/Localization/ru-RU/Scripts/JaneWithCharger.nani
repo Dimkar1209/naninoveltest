@@ -1,0 +1,21 @@
+; English <en> to Russian (Russia) <ru-RU> localization document for `JaneWithCharger` naninovel script
+
+# 382131a9
+; Jane: Oh, {playerName}, you don't know how much this means to me. Thank you!
+Jane: О, {playername}, вы не знаете, что это значит для меня. Спасибо!
+
+# eb5054ee
+; {playerName}: I hope it helps. I trust you'll use it for the right reasons.
+{playerName}: Я надеюсь, что это помогает. Я верю, что вы используете его по правильным причинам.
+
+# 4638df88
+; Jane: Absolutely! You've made a wise choice. Your trust in me... it means everything.
+Jane: Абсолютно! Вы сделали мудрый выбор. Ваше доверие ко мне ... это значит все.
+
+# 917011a7
+; {playerName}: Just make sure it's put to good use, Jane.
+{playerName}: Просто убедитесь, что он используется, Джейн.
+
+# c9347f6a
+; Jane: Don't worry, {playerName}. With this charger, we can finally make a positive change. You've played a crucial role in this.
+Jane: Не волнуйтесь, {playername}. С помощью этого зарядного устройства мы наконец -то сможем внести позитивные изменения. Вы сыграли решающую роль в этом.

@@ -2,7 +2,7 @@
 @printer Dialogue
 
 {playerName}: Okay, here i am
-@print text:"As you open it, you first notice the sleek, black box with glossy, embossed lettering spelling "GigaCharger" that shimmers under the light."
+@print text:"As you open it, you first notice the sleek, black box with glossy, embossed lettering spelling \"GigaCharger\" that shimmers under the light."
 @print text:"As you remove the charger from the box, you notice its substantial weight, lending to its powerful capabilities."
 
 @spawn DigitalGlitch params:2.0,0.4

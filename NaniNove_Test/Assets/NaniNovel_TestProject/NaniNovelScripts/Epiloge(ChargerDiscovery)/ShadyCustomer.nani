@@ -3,7 +3,7 @@
 @back id:DarkStreet
 @char Jane.Greetings
 @printer Dialogue
-
+@voice Jane_Hello volume:0.5
 Jane: Ah, you must be {playerName}. You're here for the package, right?
 
 {playerName}: Yes, I was told to pick up something important from Neon Alley.
